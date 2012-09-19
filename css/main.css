@@ -4,9 +4,9 @@
    Gary Bettman needs to get this shit straight
    ========================================================================== */
 
-#counter {width:675px; margin:0 auto; text-align: center;}
-#tweet {text-align: center;}
 
+
+#counter {width:675px; margin:0 auto; text-align: center;}
 .num-item {
 	padding:25px 20px;
 	width:75px;
@@ -22,19 +22,23 @@
 .num-type {text-align:center;margin-top:25px;}
 
 
+/* twitter stream */
+.timeline-header {display:none!important;}
+.twitter-timeline {display:none!important;}
 
-<<<<<<< HEAD
-
-
-=======
-.stream { width:655px; margin:0 auto; text-align: center;}
+.stream {width:655px; margin:0 auto; text-align: center;}
 .stream iframe {width:655px; margin:0 auto; float:left; opacity:.7;}
->>>>>>> more edits to twitter widget
 
+.twButton {float:right; margin-right:140px; padding-top:5px;}
 
+footer { 
 
+	margin-left:145px;
+	float:left;
+	
+} 
 
-
+.innerCont {display:block; position:relative; top:-350px; margin-top:50%; height:700px;}
 
 
 
